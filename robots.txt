@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elnigm0.github.io/gym/sitemap.xml
