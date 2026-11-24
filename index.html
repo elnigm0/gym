@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- تحسينات السيو و محركات البحث (SEO Meta Tags) -->
+    <title>الكابتن جيم </title>
+    <meta name="description" content="انضم إلى الكابتن جيم في كفر الدوار، عزبة الربعمائة، الخط الوسطاني بمحافظة البحيرة. بإشراف كابتن محمد سعيد. أقوى تجهيزات الأجهزة الرياضية والحديد وأفضل أسعار الاشتراكات.">
+    <meta name="keywords" content="الكابتن جيم, كفر الدوار, عزبة الربعمائة, جيم الربعمائة, جيم في محافظة البحيرة, جيم في كفر الدوار, جيم الخط الوسطاني, كابتن محمد سعيد, بناء عضلات, تمرينات الجيم">
+    <meta name="author" content="المهندس محمد عصام الفيومي">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="الكابتن جيم | Captain Gym - كفر الدوار">
+    <meta property="og:description" content="أقوى صالة ألعاب رياضية في عزبة الربعمائة، الخط الوسطاني، كفر الدوار. اشترك الآن مع كابتن محمد سعيد.">
+    <meta property="og:type" content="website">
+
+    <!-- أيقونات الفافيكون من داخل فولدر icon -->
+    <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+    <link rel="shortcut icon" href="icon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="الكابتن جيم" />
+    <link rel="manifest" href="icon/site.webmanifest" />
+
+    <!-- خط القاهرة الاحترافي -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- أيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- ملف التنسيق -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- الهيدر العلوي -->
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#home" class="logo-box">
+                <img src="images/logo.png" alt="شعار الكابتن جيم كفر الدوار" onerror="this.src='https://via.placeholder.com/50x50/c93545/ffffff?text=CG'">
+                <div class="logo-text">
+                    <h1>الكابتن جيم</h1>
+                    <span>CAPTAIN GYM</span>
+                </div>
+            </a>
+
+            <!-- القائمة للشاشات الكبيرة (4 أقسام) -->
+            <nav class="desktop-nav">
+                <a href="#home" class="nav-link active">الرئيسية</a>
+                <a href="#workouts" class="nav-link">التمارين والترتيب</a>
+                <a href="#about" class="nav-link">معلومات عنا</a>
+                <a href="#booking" class="nav-link">احجز معنا</a>
+            </nav>
+
+            <a href="#booking" class="header-cta">اشترك الآن</a>
+        </div>
+    </header>
+
+    <!-- شريط التنقل السفلي للموبايل -->
+    <nav class="mobile-bottom-nav">
+        <a href="#home" class="mobile-nav-item active" data-target="home">
+            <i class="fa-solid fa-house"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="#workouts" class="mobile-nav-item" data-target="workouts">
+            <i class="fa-solid fa-dumbbell"></i>
+            <span>التمارين</span>
+        </a>
+        <a href="#about" class="mobile-nav-item" data-target="about">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>عنا</span>
+        </a>
+        <a href="#booking" class="mobile-nav-item" data-target="booking">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>احجز</span>
+        </a>
+    </nav>
+
+    <main>
+        <!-- ================= السكشن الأول: الرئيسية والسلايدر ================= -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="app-greeting">
+                    <div>
+                        <p class="greeting-sub">أهلاً بك يا بطل 👋</p>
+                        <h2 class="greeting-title">اصنع أقوى فورمة في <span>الكابتن جيم</span> بكفر الدوار</h2>
+                    </div>
+                    <a href="#booking" class="badge-live"><i class="fa-solid fa-fire"></i> العروض سارية</a>
+                </div>
+
+                <!-- السلايدر بأسماء الصور المطلوبة (photo1.jpg, photo2.jpg, photo3.jpg) -->
+                <div class="hero-slider-container">
+                    <div class="slider-wrapper" id="sliderWrapper">
+                        <!-- شريحة 1 -->
+                        <div class="slide active">
+                            <img src="images/photo1.jpg" alt="صالة الأجهزة الحديثة في الكابتن جيم" onerror="this.src='https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80'">
+                            <div class="slide-overlay">
+                                <span class="slide-tag">أحدث الأجهزة</span>
+                                <h3>تجهيزات كاملة بالماكينات الحديثة</h3>
+                                <p>أقوى الأجهزة الرياضية المعتمدة في كفر الدوار لضمان أفضل استهداف عضلي وأمان تام.</p>
+                                <a href="#booking" class="btn-primary">احجز اشتراكك</a>
+                            </div>
+                        </div>
+
+                        <!-- شريحة 2 -->
+                        <div class="slide">
+                            <img src="images/photo2.jpg" alt="الأوزان الحرة والحديد" onerror="this.src='https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=80'">
+                            <div class="slide-overlay">
+                                <span class="slide-tag">تمرينات القوة والحديد</span>
+                                <h3>بناء الأجسام على اصولها</h3>
+                                <p>معدات ثقيلة وأوزان حرة لتفصيل العضلات وبناء الكتلة العضلية الصلبة في جيم الربعمائة.</p>
+                                <a href="#booking" class="btn-primary">ابدأ الآن</a>
+                            </div>
+                        </div>
+
+                        <!-- شريحة 3 -->
+                        <div class="slide">
+                            <img src="images/photo3.jpg" alt="الكابتن جيم كفر الدوار الخط الوسطاني" onerror="this.src='https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80'">
+                            <div class="slide-overlay">
+                                <span class="slide-tag">إشراف واحترافية</span>
+                                <h3>متابعة كاملة لهدفك مع كابتن محمد سعيد</h3>
+                                <p>سواء كنت تهدف للتضخيم أو التنشيف، الكابتن محمد سعيد معك خطوة بخطوة في الخط الوسطاني.</p>
+                                <a href="#booking" class="btn-primary">سجل بياناتك</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-dots" id="sliderDots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                </div>
+
+                <div class="center-cta-box">
+                    <a href="#booking" class="btn-center-book">
+                        <i class="fa-solid fa-bolt"></i> احجز تمرينك واشتراكك الآن
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= السكشن الثاني: التمارين والترتيب خطوة بخطوة ================= -->
+        <section id="workouts" class="workouts-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">جداول التدريب الاحترافية</span>
+                    <h2 class="section-title">ترتيب التمرينات والطريقة الصحيحة لكل عضلة</h2>
+                    <p class="section-desc">اتبع هذا الترتيب العلمي لكل تمرينة لضمان أقصى استفادة وبناء عضلي سليم في الكابتن جيم</p>
+                </div>
+
+                <!-- شريط فلترة الأقسام -->
+                <div class="category-pills" id="categoryPills">
+                    <button class="pill active" data-filter="all">جميع التمارين</button>
+                    <button class="pill" data-filter="back">تمرين الظهر</button>
+                    <button class="pill" data-filter="chest">تمرين الصدر والبنش</button>
+                    <button class="pill" data-filter="shoulder">تمرين الكتف</button>
+                    <button class="pill" data-filter="legs">تمرين الرجل</button>
+                    <button class="pill" data-filter="abs">تمرين البطن</button>
+                </div>
+
+                <!-- شبكة التمارين مع الخطوات والأرقام -->
+                <div class="workouts-grid">
+                    <!-- 1. تمرينة الظهر -->
+                    <div class="workout-card" data-category="back">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1603287681836-b174ce5074c2?auto=format&fit=crop&w=600&q=80" alt="تمرين الظهر">
+                            <span class="card-badge">الظهر (Back)</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>جدول وخطوات تمرينة الظهر</h3>
+                            <ul class="exercise-steps">
+                                <li><strong>1.</strong> ابدأ أولاً بـ <strong>سحب عالي أمامي (Lat Pulldown)</strong> لتسخين وتوسيع أجنحة الظهر (4 مجاميع × 12 تكرار).</li>
+                                <li><strong>2.</strong> ثانياً: العب <strong>سحب أرضي كابل (Seated Cable Row)</strong> لزيادة سمك وكثافة عضلات منتصف الظهر (4 مجاميع × 10 تكرار).</li>
+                                <li><strong>3.</strong> ثالثاً: <strong>بار حر منحني (Barbell Bent-over Row)</strong> لتعزيز القوة والكتلة العضلية (3 مجاميع × 8 تكرار).</li>
+                                <li><strong>4.</strong> رابعاً: الختام بـ <strong>سحب ذراع مستقيم (Straight Arm Pulldown)</strong> لعزل عضلة اللاتس (3 مجاميع × 15 تكرار).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 2. تمرينة الصدر والبنش -->
+                    <div class="workout-card" data-category="chest">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=600&q=80" alt="تمرين الصدر">
+                            <span class="card-badge">الصدر وبنش</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>جدول وخطوات تمرينة الصدر</h3>
+                            <ul class="exercise-steps">
+                                <li><strong>1.</strong> ابدأ أولاً بـ <strong>بنش مستوي بالبار الحر (Flat Barbell Bench Press)</strong> لبناء القوة الأساسية (4 مجاميع × 10 تكرار).</li>
+                                <li><strong>2.</strong> ثانياً: <strong>بنش مائل علوي بالدمبل (Incline Dumbbell Press)</strong> لاستهداف الجزء العلوي للصدر (4 مجاميع × 12 تكرار).</li>
+                                <li><strong>3.</strong> ثالثاً: <strong>تفتيح بالدمبل أو الكابل (Chest Fly)</strong> لفرد وعزل عضلة الصدر (3 مجاميع × 12 تكرار).</li>
+                                <li><strong>4.</strong> رابعاً: <strong>جهاز تجميع الصدر بالماكينة (Chest Press Machine)</strong> للتشطيب وضخ الدم (3 مجاميع × 15 تكرار).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 3. تمرينة الكتف -->
+                    <div class="workout-card" data-category="shoulder">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=600&q=80" alt="تمرين الكتف">
+                            <span class="card-badge">الكتف</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>جدول وخطوات تمرينة الكتف</h3>
+                            <ul class="exercise-steps">
+                                <li><strong>1.</strong> ابدأ أولاً بـ <strong>ضغط عالي بالدمبل أو الماكينة (Shoulder Press)</strong> لتضخيم الكتف الأمامي والأوسط (4 مجاميع × 10 تكرار).</li>
+                                <li><strong>2.</strong> ثانياً: <strong>رفرفة جانبي بالدمبل (Lateral Raises)</strong> لإبراز عرض الكتف وتكويره (4 مجاميع × 15 تكرار).</li>
+                                <li><strong>3.</strong> ثالثاً: <strong>رفرفة خلفي منحني (Rear Delt Fly)</strong> لاستهداف الكتف الخلفي وتحسين وقفة الجسم (3 مجاميع × 12 تكرار).</li>
+                                <li><strong>4.</strong> رابعاً: <strong>سحب بار أمامي للذقن (Upright Row)</strong> للتشطيب النهائي (3 مجاميع × 10 تكرار).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 4. تمرينة الرجل -->
+                    <div class="workout-card" data-category="legs">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1434608519344-49d77a699e1d?auto=format&fit=crop&w=600&q=80" alt="تمرين الرجل">
+                            <span class="card-badge">الرجل</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>جدول وخطوات تمرينة الرجل</h3>
+                            <ul class="exercise-steps">
+                                <li><strong>1.</strong> ابدأ أولاً بـ <strong>سكوات حر أو على جهاز السكوات (Squat / Hack Squat)</strong> لبناء القوة الفولاذية (4 مجاميع × 10 تكرار).</li>
+                                <li><strong>2.</strong> ثانياً: <strong>جهاز دفع الرجل (Leg Press Machine)</strong> لزيادة الأوزان بأمان (4 مجاميع × 12 تكرار).</li>
+                                <li><strong>3.</strong> ثالثاً: <strong>تمرين الأمامي بالماكينة (Leg Extension)</strong> لعزل عضلة الفخذ الأمامية (3 مجاميع × 15 تكرار).</li>
+                                <li><strong>4.</strong> رابعاً: <strong>تمرين الخلفي نايم (Leg Curl)</strong> لفخذك الخلفي والسمانة (3 مجاميع × 15 تكرار).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 5. تمرينة البطن -->
+                    <div class="workout-card" data-category="abs">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80" alt="تمرين البطن">
+                            <span class="card-badge">البطن</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>جدول وخطوات تمرينة البطن والكور</h3>
+                            <ul class="exercise-steps">
+                                <li><strong>1.</strong> ابدأ أولاً بـ <strong>تمرين طحن البطن على الأرض (Crunches)</strong> للقسم العلوي (3 مجاميع × 20 تكرار).</li>
+                                <li><strong>2.</strong> ثانياً: <strong>رفع الأرجل معلقة على العقلة (Leg Raises)</strong> لاستهداف البطن السفلي الفعّال (3 مجاميع × 12 تكرار).</li>
+                                <li><strong>3.</strong> ثالثاً: <strong>تمرين البلانك الثابت (Plank)</strong> لشد عضلات الكอร์ وحماية الظهر (3 جولات لمدة 45 ثانية).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- سكشن النصائح الذهبية -->
+                <div class="tips-container-box">
+                    <h3 class="tips-main-title"><i class="fa-solid fa-graduation-cap"></i> الدليل الشامل للأبطال: التغذية، المكملات، وكيفية التخسيس وبناء العضلات</h3>
+                    
+                    <div class="tips-grid">
+                        <div class="tip-box">
+                            <h4><i class="fa-solid fa-utensils"></i> الأطعمة المفيدة لبناء العضلات</h4>
+                            <p>ركز على مصادر البروتين النظيف مثل: الصدور (كل فراخ وفكك من نظام الطيبات 😁), اللحوم الحمراء الخالية من الدهون، الأسماك (التونة والبلطي)، البيض، ومصادر الكربوهيدرات المعقدة (الشوفان، الأرز البنّي، البطاطا، البطاطس المخبوزة)، مع الدهون الصحية (مكسرات، زيت زيتون).</p>
+                        </div>
+
+                        <div class="tip-box">
+                            <h4><i class="fa-solid fa-pills"></i> كيفية أخذ الكرياتين والبروتين</h4>
+                            <p><strong>البروتين (Whey Protein):</strong> خذ سكوب بعد التمرين مباشرة مع الماء أو الحليب لتعويض الهدم العضلي وسرعة الاستشفاء. <br><strong>الكرياتين (Creatine):</strong> خذ 5 جرام يومياً في أي وقت ثابت مع كمية وفيرة من الماء لزيادة القوة والكتلة العضلية وتحسين طاقة التمرين.</p>
+                        </div>
+
+                        <div class="tip-box">
+                            <h4><i class="fa-solid fa-fire-flame-curved"></i> لو عايز تخس (تنشيف وحرق دهون) تعمل إيه؟</h4>
+                            <p>يجب أن تكون في عجز سعرات (Calories Deficit) بحيث تأكل أقل بقليل مما يحتاجه جسمك. ركز على شرب الماء بكثرة (أكثر من 3 لتر يومياً)، تقليل السكريات والخبز الأبيض، زيادة الخضروات والألياف، وإدخال الكارديو (المشي السريع أو العجل) بعد حصة الحديد.</p>
+                        </div>
+
+                        <div class="tip-box">
+                            <h4><i class="fa-solid fa-chart-line"></i> ازاي تتابع تطورك وتقيس نتائجك؟</h4>
+                            <p>لا تعتمد فقط على الميزان! قيس محيطات جسمك (الوسط، الذراع، الصدر) كل أسبوعين، وصور نفسك في نفس الإضاءة شهرياً، وراقب زيادة أوزانك في التمرين تدريجياً (Overload Progress)، واحرص على النوم المبكر من 7 إلى 8 ساعات يومياً.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= السكشن الثالث: معلومات عنا ================= -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-card">
+                    <div class="about-info">
+                        <span class="section-subtitle">من نحن</span>
+                        <h2>الكابتن جيم - وجهتك الأولى للأبطال في كفر الدوار</h2>
+                        <p class="about-desc">
+                            نقدم لك بيئة رياضية محترفة ومجهزة بالكامل بأحدث الماكينات والأدوات في عزبة الربعمائة، الخط الوسطاني، لمساعدتك على تحقيق أهدافك البدنية بكل أمان وكفاءة.
+                        </p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="icon-box"><i class="fa-solid fa-user-tie"></i></div>
+                                <div>
+                                    <h4>الإدارة والتدريب</h4>
+                                    <p>بقيادة: <strong>كابتن محمد سعيد</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>العنوان بالتفصيل</h4>
+                                    <p>منطقة عزبة الربعمائة - الخط الوسطاني - كفر الدوار - محافظة البحيرة</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div>
+                                    <h4>للتواصل والاستفسار</h4>
+                                    <p dir="ltr" style="text-align: right;">+20 12 05414321</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-visual">
+                        <div class="captain-badge">
+                            <img src="images/logo.png" alt="شعار الكابتن جيم" onerror="this.src='https://via.placeholder.com/150x150/c93545/ffffff?text=CAPTAIN+GYM'">
+                            <h3>كابتن محمد سعيد</h3>
+                            <p>خبير التدريب وتأهيل الأبطال الرياضيين في كفر الدوار</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= السكشن الرابع: احجز معنا ================= -->
+        <section id="booking" class="booking-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">انضم للأبطال</span>
+                    <h2 class="section-title">احجز اشتراكك الآن في الكابتن جيم</h2>
+                    <p class="section-desc">أدخل بياناتك بدقة وسيتم تحويل طلبك مباشرة إلى واتساب الإدارة</p>
+                </div>
+
+                <div class="booking-container">
+                    <form id="bookingForm" class="booking-form" novalidate>
+                        <!-- الاسم الرباعي -->
+                        <div class="form-group">
+                            <label for="fullName"><i class="fa-solid fa-user"></i> الاسم رباعي <span class="required">*</span></label>
+                            <input type="text" id="fullName" placeholder="ادخل اسمك رباعي" required>
+                            <small class="error-msg" id="nameError"></small>
+                        </div>
+
+                        <!-- رقم التليفون -->
+                        <div class="form-group">
+                            <label for="phoneNumber"><i class="fa-solid fa-phone"></i> رقم التليفون <span class="required">*</span></label>
+                            <input type="tel" id="phoneNumber" placeholder="ادخل رقمك بشكل صحيح" required>
+                            <small class="error-msg" id="phoneError"></small>
+                        </div>
+
+                        <!-- باقات الاشتراك -->
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-dumbbell"></i> اختر باقة الاشتراك <span class="required">*</span></label>
+                            <div class="plans-grid">
+                                <label class="plan-card">
+                                    <input type="radio" name="plan" value="تمرينة كاملة بالماكينات" data-price="250" checked>
+                                    <div class="plan-content">
+                                        <div class="plan-top">
+                                            <span class="plan-title">تمرينة كاملة بالماكينات</span>
+                                            <span class="check-circle"><i class="fa-solid fa-check"></i></span>
+                                        </div>
+                                        <p class="plan-desc">تشمل الأجهزة الكهربائية والماكينات والحديد الحر</p>
+                                        <div class="plan-price">250 <span>جنية</span></div>
+                                    </div>
+                                </label>
+
+                                <label class="plan-card">
+                                    <input type="radio" name="plan" value="تمرينة بدون ماكينات كهربائية" data-price="200">
+                                    <div class="plan-content">
+                                        <div class="plan-top">
+                                            <span class="plan-title">تمرينة بدون ماكينات كهربائية</span>
+                                            <span class="check-circle"><i class="fa-solid fa-check"></i></span>
+                                        </div>
+                                        <p class="plan-desc">تشمل الأوزان الحرة والحديد والأجهزة اليدوية فقط</p>
+                                        <div class="plan-price">200 <span>جنية</span></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- زر الإرسال -->
+                        <button type="submit" class="btn-submit">
+                            <i class="fa-brands fa-whatsapp"></i> إرسال الحجز إلى واتساب الكابتن
+                        </button>
+
+                        <!-- إشعار النجاح -->
+                        <div id="successAlert" class="success-alert hidden">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>تم الإرسال بنجاح!</h4>
+                                <p>جاري تحويلك إلى واتساب الكابتن لتأكيد الحجز...</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- الفوتر مع صورة وتوقيع المهندس محمد عصام الفيومي -->
+    <footer class="clean-footer">
+        <div class="container footer-content-box">
+            <div class="developer-card">
+                <img src="images/engmo.jpg" alt="المهندس محمد عصام الفيومي" onerror="this.src='https://via.placeholder.com/65x65/c93545/ffffff?text=ENG'">
+                <div class="developer-info">
+                    <span>تم تصميم وتطوير الموقع بواسطة</span>
+                    <h4>المهندس محمد عصام الفيومي</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
